@@ -26,7 +26,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Welcome to the soul society ",
         // Activity type number (0 = Playing).
-        type: 3,
+        type: 4,
       },
     ],
   },
@@ -159,15 +159,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "souls",
       // Plural display name.
       namePlural: "coins",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "#",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 1000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
